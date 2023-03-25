@@ -1,0 +1,9 @@
+
+local userid = game:GetService('Players').LocalPlayer.UserId
+local url = "https://moonarcbylordantler.000webhostapp.com/antispoof.php?key="..getgenv().whitelistkey.."&user="..userid
+
+if game:HttpGet(url) == "Approved" then
+  print("whitelisted")
+  else
+  print("not whitelisted")
+end
