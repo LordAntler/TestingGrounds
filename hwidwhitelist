@@ -1,3 +1,5 @@
-local Hwids = {}
+local Hwids = {
+"3bd284b61b0c49a8e888c62cfecca4e92b8c9050101784bad43caacd4732e0948f1f4527215578d7faa03184e9cc3d77be7bae395effeaad9b1ca8affa9f5f2c",
+}
 
 return Hwids
